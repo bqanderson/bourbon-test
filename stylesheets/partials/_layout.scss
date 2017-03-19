@@ -1,0 +1,11 @@
+section {
+  @include clearfix;
+  @include grid-container;
+}
+
+.box {
+  @include size($base-line-height * 4);
+  background-color: display-color('steel-blue');
+  @include grid-column(4);
+  float: left;
+}

@@ -1,0 +1,11 @@
+$display-colors: (
+  'burlywood': #deb887,
+  'licorice': #1c110a,
+  'steel-blue': #348aa7,
+  'max-yellowred': #e9b44c,
+  'sienna': #9b2915
+);
+
+@function display-color($name) {
+  @return map-get($display-colors, $name);
+};

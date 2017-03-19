@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand:300,500");
+/* =Veriables for Media Breakpoints
+-------------------------------------------------------------- */
+/* =Module for Veritcal Rhythm
+-------------------------------------------------------------- */
+section::after {
+  clear: both;
+  content: "";
+  display: table; }
+section::after {
+  clear: both;
+  content: "";
+  display: block; }
+
+.box {
+  height: 6rem;
+  width: 6rem;
+  background-color: #348aa7;
+  width: calc(33.33333% - 26.66667px);
+  float: left;
+  margin-left: 20px;
+  float: left; }
+
+/*# sourceMappingURL=main.css.map */
